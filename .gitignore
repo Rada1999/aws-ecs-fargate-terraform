@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!variables.tf
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# AWS credentials
+.aws/
+credentials
+.env
+*.pem
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
